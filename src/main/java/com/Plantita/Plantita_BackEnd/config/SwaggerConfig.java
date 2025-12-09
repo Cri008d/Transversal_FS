@@ -13,10 +13,11 @@ public class SwaggerConfig {
     public OpenAPI customOpenAPI(){
         return new OpenAPI().info(
             new Info()
-            .title("API demo")
-            .version("0.1")
-            .description("Api de repaso")
+            .title("Plantita API")
+            .version("1.0")
+            .description("Api de plantita")
         );
     }
 
 }
+
