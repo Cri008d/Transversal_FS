@@ -20,7 +20,6 @@ import com.Plantita.Plantita_BackEnd.model.Usuario;
 import com.Plantita.Plantita_BackEnd.service.UsuarioService;
 
 
-@CrossOrigin(origins = "http://localhost:5173")
 @RestController
 @RequestMapping("/api/v1/usuarios")
 public class UsuarioController {
@@ -62,4 +61,5 @@ public class UsuarioController {
             return ResponseEntity.notFound().build();
         }
     }
+
 }
