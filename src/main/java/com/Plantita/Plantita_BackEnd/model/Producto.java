@@ -28,6 +28,9 @@ public class Producto {
     private String nombreProducto;
 
     @Column(nullable = false)
+    private String descripcion;
+
+    @Column(nullable = false)
     private Integer precioProducto;
 
     @Column(nullable = false)
@@ -39,3 +42,4 @@ public class Producto {
 
     
 }
+
